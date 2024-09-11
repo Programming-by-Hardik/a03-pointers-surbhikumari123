@@ -66,7 +66,7 @@ int findMax(int *arr, int length) {
         if (*(arr + i) > max) {
             max = *(arr + i);
         }
-    
+    }
     return max;
 
 
@@ -97,7 +97,7 @@ void reverseArray(int *arr, int length) {
 
 
 
-
+}
 
 //---------------------------------
 // TEST CASES - Don't change the code below this.
@@ -113,7 +113,7 @@ bool testSwap() {
     } else {
         return false;
     }
-
+}
 
 // Test case for findMax function
 bool testFindMax() {
@@ -126,7 +126,7 @@ bool testFindMax() {
     } else {
         return false;
     }
-
+}
 
 // Test case for reverseArray function
 bool testReverseArray() {
